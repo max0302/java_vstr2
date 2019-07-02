@@ -14,10 +14,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="184" column="73" lean-forward="true" selection-start-line="184" selection-start-column="73" selection-end-line="184" selection-end-column="73" />
+            <state relative-caret-position="743">
+              <caret line="225" column="19" lean-forward="false" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
               <folding>
-                <marker date="1562089875143" expanded="true" signature="216:471" ph="..." />
+                <marker date="1562090195746" expanded="true" signature="216:471" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,16 +116,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562080435597</updated>
-      <workItem from="1562080440078" duration="9437000" />
+      <workItem from="1562080440078" duration="9746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9437000" />
+    <option name="totallyTimeSpent" value="9746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -160,10 +159,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="184" column="73" lean-forward="true" selection-start-line="184" selection-start-column="73" selection-end-line="184" selection-end-column="73" />
+        <state relative-caret-position="743">
+          <caret line="225" column="19" lean-forward="false" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
           <folding>
-            <marker date="1562089875143" expanded="true" signature="216:471" ph="..." />
+            <marker date="1562090195746" expanded="true" signature="216:471" ph="..." />
           </folding>
         </state>
       </provider>

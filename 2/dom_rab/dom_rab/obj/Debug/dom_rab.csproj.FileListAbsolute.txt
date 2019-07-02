@@ -17,3 +17,12 @@ G:\WF\vstr1\dom_rab\dom_rab\obj\Debug\dom_rab.Properties.Resources.resources
 G:\WF\vstr1\dom_rab\dom_rab\obj\Debug\dom_rab.csproj.GenerateResource.Cache
 G:\WF\vstr1\dom_rab\dom_rab\obj\Debug\dom_rab.exe
 G:\WF\vstr1\dom_rab\dom_rab\obj\Debug\dom_rab.pdb
+D:\max\java_vstr2\2\dom_rab\dom_rab\bin\Debug\dom_rab.exe.config
+D:\max\java_vstr2\2\dom_rab\dom_rab\bin\Debug\dom_rab.exe
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.csprojAssemblyReference.cache
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.Form1.resources
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.Properties.Resources.resources
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.csproj.GenerateResource.cache
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.csproj.CoreCompileInputs.cache
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.exe
+D:\max\java_vstr2\2\dom_rab\dom_rab\obj\Debug\dom_rab.pdb

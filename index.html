@@ -218,7 +218,34 @@
     // Если пользователь указал, что его число > 50, то изменили
     // диапазон на от 51 до 100. И так до тех пор, пока пользова-
     // тель не выберет == N.
+    var b=false;
+    var high=100, low=0;
 
+    do
+    {
+        y=confirm('')
+        DialogResult result = MessageBox.Show($"Число больше {(high + low) / 2}", "Угадывание числа", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+        if (result == DialogResult.Yes)
+        { low = (high + low) / 2; MessageBox.Show($"high = {high} low = {low}"); }
+        else
+        { high = (high + low) / 2; MessageBox.Show($"high = {high} low = {low}"); }
+
+
+        if ((high - low) == 1 && result == DialogResult.Yes)
+        {
+            if (b == false)
+            {
+                MessageBox.Show($"загаданное числое = {high}");
+            }
+            b = true;
+        }
+
+
+
+
+    } while (high != low && b == false);
 
 </script>
 
