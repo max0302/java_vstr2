@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java script vstr2</title>
+</head>
+<body>
+<script>
+    // Задание 1 Подсчитать сумму всех чисел в заданном пользователем диапазоне.
+    // var a0 = parseInt(prompt('Введите 1-ое число'),10);
+    // var a1 = parseInt(prompt('Введите 2-ое число'),10);
+    // var sum=0;
+    // for (i=a0;i<=a1;i++){
+    //     sum+=i;
+    // }
+    // document.write('Сумма чисел между искомыми составялет ', sum);
+
+
+
+    // Задание 2 Запросить 2 числа и найти только наибольший общий делитель.
+    // var a0 = parseInt(prompt('Введите 1-ое число'),10);
+    // var a1 = parseInt(prompt('Введите 2-ое число'),10);
+    // var a3=0;
+    //
+    // if (a1>a0) {a3=a1}
+    // else {a3=a0}
+    //
+    //     for(i=a3;i>=1;i--){
+    //         if(a1%i==0 && a0%i==0){
+    //             document.write('НОД для чисел ', i); break;
+    //         }
+    //     }
+
+
+
+    // Задание 3 Запросить у пользователя число и вывести все делители этого числа
+    // var a0 = parseInt(prompt('Введите число'),10);
+    //     document.write('Делители для числа ', a0);
+    //      for(i=a0-1;i>=1;i--){
+    //          if(a0%i==0){
+    //              document.write ("<br>");
+    //              document.write(i);
+    //          }
+    //      }
+
+
+
+    // Задание 4 Определить количество цифр в введенном числе
+    // var a0 = parseInt(prompt('Введите число'),10);
+    // var counter = 0;
+    // var x=a0;
+    // do{
+    //     x=x/10;
+    //     counter++;
+    // }while (x>1);
+    // document.write('Количество цифр ', counter);
+
+
+
+    // Задание 5 Запросить у пользователя 10 чисел и подсчитать, сколько
+    // он ввел положительных, отрицательных и нулей. При этом
+    // также посчитать, сколько четных и нечетных. Вывести
+    // статистику на экран. Учтите, что достаточно одной пере-
+    // менной (не 10) для ввода чисел пользователем.
+    // var a0 = 0;
+    // var a1 = 0;
+    // var a2 = 0;
+    // var a3 = 0;
+    // var a4 = 0;
+    // var x;
+    // for (i=0;i<10;i++) {
+    //     x=parseInt(prompt('Введите число'),10);
+    //     if (x==0) a0++;
+    //     if (x>0) a1++;
+    //     if (x<0) a2++;
+    //     if (x%2!=0 && x!=0) a3++;
+    //     if (x%2==0 && x!=0) a4++;
+    // }
+    // document.write('положительных ', a1);
+    // document.write('<br>');
+    // document.write('отрицательных ', a2);
+    // document.write('<br>');
+    // document.write('нулей ', a0);
+    // document.write('<br>');
+    // document.write('четных ', a4);
+    // document.write('<br>');
+    // document.write('нечетных ', a3);
+
+
+
+    // Задание 6 Зациклить калькулятор. Запросить у пользователя 2 числа
+    // и знак, решить пример, вывести результат и спросить, хо-
+    // чет ли он решить еще один пример. И так до тех пор, пока
+    // пользователь не откажется.
+    // var trueXY = true;
+    // var trueOperand = true;
+    // var allOperands = ['+', '-', '*', '/'];
+    // var cont=true;
+    //
+    // do {
+    //     var x = +prompt('Введите x:', '');
+    //     var y = +prompt('Введите y:', '');
+    //
+    //     xyNaN(x, y);
+    //
+    //     if (trueXY) {
+    //         var operand = prompt('Введите знак арифметической операции (+, -, *, /):', '');
+    //         var trueOp = checkOp(operand);
+    //     }
+    //     if (trueXY && trueOperand) {
+    //         alert('Результат: ' + mathXY(x, y, operand));
+    //     }
+    //
+    //     function xyNaN(x, y) {
+    //         if (isNaN(x)) {
+    //             alert('Число Х некорректное');
+    //             trueXY = false;
+    //         }
+    //         if (isNaN(y)) {
+    //             alert('Число Y некорректное');
+    //             trueXY = false;
+    //         }
+    //     }
+    //
+    //     function checkOp(op) {
+    //
+    //         for (var i = 0; i < allOperands.length; i++) {
+    //             if (op === allOperands[i]) {
+    //                 return op;
+    //             } else continue;
+    //         }
+    //         trueOperand = false;
+    //         alert('Знак арифметической операции некорректный');
+    //     }
+    //
+    //     function mathXY(x, y, op) {
+    //         if (op === '+') {
+    //             return x + y;
+    //         } else if (op === '-') {
+    //             return x - y;
+    //         } else if (op === '*') {
+    //             return x * y;
+    //         } else if (op === '/') {
+    //             if (y == 0) {
+    //                 return 'Делить на ноль не можно!';
+    //             } else {
+    //                 return x / y;
+    //             }
+    //         }
+    //     }
+    //
+    //     cont = +prompt('Введите 1 для продолжения или 0 для остановки');
+    // }while (cont==true);
+
+
+
+    // Задание 7 Запросить у пользователя число и на сколько цифр его
+    // сдвинуть. Сдвинуть цифры числа и вывести результат (если
+    // число 123456 сдвинуть на 2 цифры, то получится 345612).
+    var a0 = parseInt(prompt('Введите число'),10);
+    var a1 = parseInt(prompt('Введите на сколько цифр сдвинуть'),10);
+
+    function q(a0) {
+        var counter = 0;
+        var x=a0;
+        do{
+           x=x/10;
+            counter++;
+        }while (x>1);
+        return counter;
+    }
+
+    var counter = q(a0);
+    document.write('Количество цифр ', counter);
+    document.write("<br>");
+
+    for(i=0;i<a1;i++) {
+        a0 = a0 - (a0 - 10^(counter - 1) * (a0 / (10^(counter - 1))) + a0 / ((counter - 1) * 10);
+    }
+
+    document.write(a0);
+
+</script>
+
+
+
+</body>
+</html>
