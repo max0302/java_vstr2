@@ -175,7 +175,7 @@
     document.write("<br>");
 
     for(i=0;i<a1;i++) {
-        a0 = a0 - (a0 - 10^(counter - 1) * (a0 / (10^(counter - 1))) + a0 / ((counter - 1) * 10);
+        a0 = (a0 - Math.pow(10,(counter-1)) * Math.floor(a0 / Math.pow(10,(counter-1)))) * 10 + Math.floor(a0 / Math.pow(10,(counter-1)));
     }
 
     document.write(a0);
